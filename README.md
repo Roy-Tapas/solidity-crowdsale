@@ -7,12 +7,13 @@ Crowd-sale participants will receive PUPR coin in exchange of Ethereum on 1:1 co
 
 * [`Puppercoin.sol`](PupperCoin.sol) -- This contract will create the token PUPR that the project aims to launch. This contract uses standard ERC20Mintable and ERC20Detailed contracts.
 
-* [`CrowdSale.sol`](CrowdSale.sol) -- This contract implements core logic for crowdsale by using the following following OpenZeppelin contracts:  
-Crowdsale  
-MintedCrowdsale  
-CappedCrowdsale  
-TimedCrowdsale  
-RefundablePostDeliveryCrowdsale  
+* [`CrowdSale.sol`](CrowdSale.sol) -- This contract implements core logic for crowdsale by using the following following OpenZeppelin 
+- contracts:  
+- Crowdsale  
+- MintedCrowdsale  
+- CappedCrowdsale  
+- TimedCrowdsale  
+- RefundablePostDeliveryCrowdsale  
 
 
 ## Dependencies
@@ -24,16 +25,16 @@ Following technical components are needed to run these contracts:
 ## Instructions
 * Clone the repo in your local directory $ git clone https://github.com/Roy-Tapas/solidity-crowdsale
 
-1) Compile PupperCoin.SOL
+1) Compile PupperCoin.sol - solidity contract that creates the custom token - PUPR
    ![CompilePupperCoin](Images/1-PupperCoin-compile.PNG)
 
-2) Deploy PupperCoin contract
+2) Deploy PupperCoin contract  
    ![DeployPupperCoin](Images/2-PupperCoinDeploy.PNG)
 
-3) Pupper coin (PUPR) created
+3) Pupper coin (PUPR) created  
    ![PupperCoinCreated](Images/2.1-Puppercoin-created.PNG)
 
-4) Compile CrowdSale.SOL
+4) Compile CrowdSale.sol - implements core logic for crowdsale - consists of two contracts (a) PupperCoinSale and (b) PupperCoinSaleDeployer  
    ![CompileCrowdSale](Images/3-CrowdSale-compile.PNG)
 
 5) Deploy PupperCoinSaleDeployer contract
