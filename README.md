@@ -31,7 +31,7 @@ Following technical components are needed to run these contracts:
 2) Deploy PupperCoin contract  
    ![DeployPupperCoin](Images/2-PupperCoinDeploy.PNG)
 
-3) Pupper coin (PUPR) created  
+3) Pupper coin (PUPR) created and added to metamask wallet
    ![PupperCoinCreated](Images/2.1-Puppercoin-created.PNG)
 
 4) Compile CrowdSale.sol - implements core logic for crowdsale - consists of two contracts (a) PupperCoinSale and (b) PupperCoinSaleDeployer  
